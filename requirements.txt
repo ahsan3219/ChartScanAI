@@ -1,22 +1,12 @@
 # Base requirements for the Streamlit Crypto Strategy Analyzer app
 # Install using: pip install -r requirements.txt
-
 streamlit
 pandas
-pandas_ta  # pandas_ta is commonly used
-ccxt>=4.0.0       # Using a recent version of ccxt is recommended
+pandas_ta  
+ccxt       
 numpy
 Pillow
-mplfinance>=0.4.8   # mplfinance for plotting
-
-# Dependency for mplfinance and potentially others, often good to list explicitly
+mplfinance
 matplotlib
-
-# Optional: Used for stock chart generation example in the sidebar
 yfinance
-
-# Optional: Used for YOLO object detection feature (if uncommented/used in the app)
-# Note: ultralytics depends on PyTorch. Installation might require specific commands
-# depending on your system (CPU/GPU). See: https://pytorch.org/get-started/locally/
-# If you don't use the YOLO part, you can comment out or remove 'ultralytics'.
 ultralytics
