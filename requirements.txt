@@ -3,7 +3,7 @@
 
 streamlit
 pandas
-pandas_ta>=0.3.14b0  # pandas_ta is commonly used
+pandas_ta  # pandas_ta is commonly used
 ccxt>=4.0.0       # Using a recent version of ccxt is recommended
 numpy
 Pillow
